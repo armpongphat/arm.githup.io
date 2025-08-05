@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5 ที่เที่ยวเชียงใหม่byอาร์ม</title>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts - Prompt -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Prompt', sans-serif;
+            background-color: #F0FFF4; /* Pastel green background */
+        }
+        .card-image {
+            height: 24rem; /* Fixed height for consistent card design */
+        }
+    </style>
+</head>
+<body class="antialiased text-gray-800">
+    <!-- Full-width Header Section -->
+    <header class="bg-white shadow-xl mb-12">
+        <div class="relative w-full overflow-hidden">
+            <!-- Background Image with Overlay -->
+            <div class="absolute inset-0 z-0 bg-[url('เชียงใหม่.jpg')] bg-cover bg-center opacity-30"></div>
+            <!-- Header Content Container (Aligned with main content) -->
+            <div class="container mx-auto max-w-4xl p-8 relative z-10 text-center">
+                <h1 class="text-4xl md:text-5xl font-bold text-teal-800 drop-shadow-md">
+                    5 สถานที่ท่องเที่ยวในเชียงใหม่ยอดฮิต
+                </h1>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content Section - Tourist Spots -->
+    <div class="container mx-auto px-4 py-8 max-w-4xl">
+        <main class="space-y-10">
+            <!-- Wat Phra That Doi Suthep Card -->
+            <div id="wat-doi-suthep-card" class="bg-white rounded-3xl shadow-xl overflow-hidden transform transition-transform duration-300 hover:scale-105">
+                <img src="พระธาตุ.jpg" alt="" class="w-full card-image object-cover rounded-t-3xl">
+                <div class="p-8">
+                    <h2 class="text-3xl font-bold text-teal-900 mb-2">วัดพระธาตุดอยสุเทพ</h2>
+                    <p class="text-lg text-gray-600 mb-6">
+                        วัดคู่บ้านคู่เมืองเชียงใหม่ ที่ตั้งอยู่บนยอดดอยสุเทพ พร้อมวิวทิวทัศน์เมืองเชียงใหม่ที่สวยงาม
+                    </p>
+                    <button class="toggle-details-btn bg-teal-500 text-white font-bold py-3 px-6 rounded-full shadow-lg hover:bg-teal-600 transition-colors duration-300"
+                            aria-expanded="false" aria-controls="details-wat-doi-suthep">
+                        ดูรายละเอียดเพิ่มเติม
+                    </button>
+                    <!-- Detail Section -->
+                    <div id="details-wat-doi-suthep" class="mt-6 space-y-4 text-gray-700 hidden">
+                        <div class="p-4 bg-green-50 rounded-xl">
+                            <h3 class="font-bold text-xl text-teal-800">เวลาเปิด-ปิด:</h3>
+                            <p>เปิดทุกวัน 06:00 น. - 18:00 น.</p>
+                        </div>
+                        <div class="p-4 bg-green-50 rounded-xl">
+                            <h3 class="font-bold text-xl text-teal-800">วิธีการเดินทาง:</h3>
+                            <p>สามารถเดินทางด้วยรถส่วนตัว หรือใช้บริการรถสองแถว (รถแดง) ที่บริเวณหน้ามหาวิทยาลัยเชียงใหม่</p>
+                        </div>
+                        <div class="p-4 bg-green-50 rounded-xl">
+                            <h3 class="font-bold text-xl text-teal-800">ความน่าสนใจ:</h3>
+                            <p>สักการะองค์พระธาตุเจดีย์สีทองอันศักดิ์สิทธิ์ ชมความงามของสถาปัตยกรรมล้านนา และเพลิดเพลินกับทัศนียภาพเมืองเชียงใหม่จากมุมสูง</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Doi Inthanon National Park Card -->
+            <div id="doi-inthanon-card" class="bg-white rounded-3xl shadow-xl overflow-hidden transform transition-transform duration-300 hover:scale-105">
+                <img src="ดอยอินทนน.jpg" alt="" class="w-full card-image object-cover rounded-t-3xl">
+                <div class="p-8">
+                    <h2 class="text-3xl font-bold text-teal-900 mb-2">อุทยานแห่งชาติดอยอินทนนท์</h2>
+                    <p class="text-lg text-gray-600 mb-6">
+                        สัมผัสความหนาวเย็นและธรรมชาติที่อุดมสมบูรณ์บน "หลังคาประเทศไทย"
+                    </p>
+                    <button class="toggle-details-btn bg-teal-500 text-white font-bold py-3 px-6 rounded-full shadow-lg hover:bg-teal-600 transition-colors duration-300"
+                            aria-expanded="false" aria-controls="details-doi-inthanon">
+                        ดูรายละเอียดเพิ่มเติม
+                    </button>
+                    <!-- Detail Section -->
+                    <div id="details-doi-inthanon" class="mt-6 space-y-4 text-gray-700 hidden">
+                        <div class="p-4 bg-green-50 rounded-xl">
+                            <h3 class="font-bold text-xl text-teal-800">เวลาเปิด-ปิด:</h3>
+                            <p>เปิดทุกวัน 05:00 น. - 17:00 น.</p>
+                        </div>
+                        <div class="p-4 bg-green-50 rounded-xl">
+                            <h3 class="font-bold text-xl text-teal-800">วิธีการเดินทาง:</h3>
+                            <p>ใช้รถยนต์ส่วนตัวจากตัวเมืองเชียงใหม่ มุ่งหน้าไปทางทิศใต้ตามถนนหลวงหมายเลข 108 จากนั้นเลี้ยวขวาเข้าสู่ถนนหลวงหมายเลข 1009</p>
+                        </div>
+                        <div class="p-4 bg-green-50 rounded-xl">
+                            <h3 class="font-bold text-xl text-teal-800">ความน่าสนใจ:</h3>
+                            <p>พิชิตยอดดอยที่สูงที่สุดในประเทศไทย, เดินศึกษาธรรมชาติเส้นทางกิ่วแม่ปาน, ชมพระมหาธาตุเจดีย์นภเมทนีดลและนภพลภูมิสิริ</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Mae Kampong Village Card -->
+            <div id="mae-kampong-card" class="bg-white rounded-3xl shadow-xl overflow-hidden transform transition-transform duration-300 hover:scale-105">
+                <img src="แม่กำปอง.jpg" alt="" class="w-full card-image object-cover rounded-t-3xl">
+                <div class="p-8">
+                    <h2 class="text-3xl font-bold text-teal-900 mb-2">หมู่บ้านแม่กำปอง</h2>
+                    <p class="text-lg text-gray-600 mb-6">
+                        หมู่บ้านเล็กๆ ที่โอบล้อมด้วยธรรมชาติ อากาศเย็นสบายตลอดทั้งปี
+                    </p>
+                    <button class="toggle-details-btn bg-teal-500 text-white font-bold py-3 px-6 rounded-full shadow-lg hover:bg-teal-600 transition-colors duration-300"
+                            aria-expanded="false" aria-controls="details-mae-kampong">
+                        ดูรายละเอียดเพิ่มเติม
+                    </button>
+                    <!-- Detail Section -->
+                    <div id="details-mae-kampong" class="mt-6 space-y-4 text-gray-700 hidden">
+                        <div class="p-4 bg-green-50 rounded-xl">
+                            <h3 class="font-bold text-xl text-teal-800">เวลาเปิด-ปิด:</h3>
+                            <p>เปิดตลอดเวลา (แนะนำช่วงกลางวัน)</p>
+                        </div>
+                        <div class="p-4 bg-green-50 rounded-xl">
+                            <h3 class="font-bold text-xl text-teal-800">วิธีการเดินทาง:</h3>
+                            <p>จากตัวเมืองเชียงใหม่ ใช้เส้นทางถนนหลวงหมายเลข 1317 (เชียงใหม่-แม่ออน) แล้วเลี้ยวซ้ายเข้าสู่ถนนท้องถิ่นไปตามป้ายบอกทาง</p>
+                        </div>
+                        <div class="p-4 bg-green-50 rounded-xl">
+                            <h3 class="font-bold text-xl text-teal-800">ความน่าสนใจ:</h3>
+                            <p>สัมผัสวิถีชีวิตชุมชน, เดินเล่นชมธรรมชาติ, แวะร้านกาแฟริมธาร, และพักผ่อนในบ้านพักโฮมสเตย์</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Nimmanahaeminda Road Card -->
+            <div id="nimman-card" class="bg-white rounded-3xl shadow-xl overflow-hidden transform transition-transform duration-300 hover:scale-105">
+                <img src="นินมาน.jpg" alt="" class="w-full card-image object-cover rounded-t-3xl">
+                <div class="p-8">
+                    <h2 class="text-3xl font-bold text-teal-900 mb-2">ถนนนิมมานเหมินท์</h2>
+                    <p class="text-lg text-gray-600 mb-6">
+                        ย่านสุดฮิปของเชียงใหม่ ที่เต็มไปด้วยร้านค้า คาเฟ่ และแกลเลอรี่งานศิลปะ
+                    </p>
+                    <button class="toggle-details-btn bg-teal-500 text-white font-bold py-3 px-6 rounded-full shadow-lg hover:bg-teal-600 transition-colors duration-300"
+                            aria-expanded="false" aria-controls="details-nimman">
+                        ดูรายละเอียดเพิ่มเติม
+                    </button>
+                    <!-- Detail Section -->
+                    <div id="details-nimman" class="mt-6 space-y-4 text-gray-700 hidden">
+                        <div class="p-4 bg-green-50 rounded-xl">
+                            <h3 class="font-bold text-xl text-teal-800">เวลาเปิด-ปิด:</h3>
+                            <p>ร้านค้าและร้านอาหารส่วนใหญ่เปิดตั้งแต่ 10:00 น. เป็นต้นไป</p>
+                        </div>
+                        <div class="p-4 bg-green-50 rounded-xl">
+                            <h3 class="font-bold text-xl text-teal-800">วิธีการเดินทาง:</h3>
+                            <p>อยู่ในตัวเมืองเชียงใหม่ สามารถใช้บริการรถแดง, Grab หรือขับรถส่วนตัวได้</p>
+                        </div>
+                        <div class="p-4 bg-green-50 rounded-xl">
+                            <h3 class="font-bold text-xl text-teal-800">ความน่าสนใจ:</h3>
+                            <p>เดินเล่นในซอยต่างๆ เพื่อค้นหาร้านกาแฟและร้านอาหารที่มีเอกลักษณ์, ช้อปปิ้งสินค้าแฟชั่นและงานฝีมือ, ถ่ายรูปตามมุมสวยๆ ของอาคารและคาเฟ่</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mon Jam Card -->
+            <div id="mon-jam-card" class="bg-white rounded-3xl shadow-xl overflow-hidden transform transition-transform duration-300 hover:scale-105">
+                <img src="ม่อนแจ้ม.jpg" alt="" class="w-full card-image object-cover rounded-t-3xl">
+                <div class="p-8">
+                    <h2 class="text-3xl font-bold text-teal-900 mb-2">ม่อนแจ่ม</h2>
+                    <p class="text-lg text-gray-600 mb-6">
+                        จุดชมวิวที่สวยงาม บรรยากาศดี เหมาะสำหรับการพักผ่อนและชมทะเลหมอกยามเช้า
+                    </p>
+                    <button class="toggle-details-btn bg-teal-500 text-white font-bold py-3 px-6 rounded-full shadow-lg hover:bg-teal-600 transition-colors duration-300"
+                            aria-expanded="false" aria-controls="details-mon-jam">
+                        ดูรายละเอียดเพิ่มเติม
+                    </button>
+                    <!-- Detail Section -->
+                    <div id="details-mon-jam" class="mt-6 space-y-4 text-gray-700 hidden">
+                        <div class="p-4 bg-green-50 rounded-xl">
+                            <h3 class="font-bold text-xl text-teal-800">เวลาเปิด-ปิด:</h3>
+                            <p>เปิดตลอดทั้งวัน (บางร้านค้าอาจมีเวลาปิด)</p>
+                        </div>
+                        <div class="p-4 bg-green-50 rounded-xl">
+                            <h3 class="font-bold text-xl text-teal-800">วิธีการเดินทาง:</h3>
+                            <p>ขับรถยนต์ส่วนตัวจากตัวเมืองเชียงใหม่ ใช้เส้นทางแม่ริม-สะเมิง และขึ้นไปตามป้ายบอกทาง</p>
+                        </div>
+                        <div class="p-4 bg-green-50 rounded-xl">
+                            <h3 class="font-bold text-xl text-teal-800">ความน่าสนใจ:</h3>
+                            <p>ชมทัศนียภาพที่สวยงามของหุบเขา, ถ่ายรูปกับแปลงดอกไม้, และนั่งจิบกาแฟชมวิวในบรรยากาศที่เย็นสบาย</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- Simple Footer Section -->
+    <footer class="mt-12 text-center text-gray-700">
+        <div class="container mx-auto max-w-4xl px-4">
+            <p class="text-md md:text-lg">อาร์ม พงศ์ภัทร์ จรัสสุวิมล | 68319100006/DBTach</p>
+            <p class="text-md md:text-lg">iG zer4xkub_</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript for button functionality -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Get all buttons with the class 'toggle-details-btn'
+            const buttons = document.querySelectorAll('.toggle-details-btn');
+
+            // Loop through each button and add a click event listener
+            buttons.forEach(button => {
+                button.addEventListener('click', () => {
+                    // Get the ID of the details section from the 'aria-controls' attribute
+                    const detailsId = button.getAttribute('aria-controls');
+                    const detailsSection = document.getElementById(detailsId);
+                    
+                    // Check if the details section is currently hidden
+                    const isHidden = detailsSection.classList.contains('hidden');
+
+                    // Toggle the visibility of the details section
+                    if (isHidden) {
+                        detailsSection.classList.remove('hidden');
+                        button.setAttribute('aria-expanded', 'true');
+                        button.textContent = 'ซ่อนรายละเอียด';
+                    } else {
+                        detailsSection.classList.add('hidden');
+                        button.setAttribute('aria-expanded', 'false');
+                        button.textContent = 'ดูรายละเอียดเพิ่มเติม';
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
